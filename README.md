@@ -1,6 +1,6 @@
-WebSystemsDevelopment-Midterm Project
+WebSystemsDevelopment(IS601) - Midterm Project
 
-About This Project
+About This Project: -
 This project is designed to process order details from a JSON file and generate two new files:
 
 customers.json – A list of unique customers with their phone numbers.
@@ -12,13 +12,13 @@ What This Python Script Does
 3. Collect item data, calculating how often each item was ordered.
 4. Saves the processed data into structured JSON files for easy access.
 
-Requirements
+Requirements: -
 1. Python 3.13.2
 
-How to Use
-1. Make sure you have Python installed.
+How to Use: -
+1. Make sure you have an IDE (e.g, VS Code) installed in your system with Python installed.
 2. Place the script in your project folder.
 3. Ensure the JSON file with order details (e.g., example_orders.json) is in the correct directory.
-4. Open a terminal, navigate to the script’s location, and run: python main_orders.py example_orders.json
+4. Open a terminal, navigate to the script’s location, and run command: - python main_orders.py example_orders.json
 
 This will generate the customers.json and items.json files based on the order data.
